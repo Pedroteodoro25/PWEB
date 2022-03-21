@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>DESIGN RESPONSIVO</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        
+        <h1>DESIGN RESPONSIVO</h1>
+        
+        
+        <ul>
+            <li>Sumario</li>
+            <li><a href="#introducao">Introdução </a> </li>
+            <li><a href="#importancia">Importancia do Design Responsivo </a> </li>
+            <li><a href="#triade">Triade para Design Responsivo  </a> </li>
+            <li><a href="#diferenca">Diferença entre Design Responsivo e Adaptativo </a> </li>
+            <li><a href="#conclusao">Conclusao</a></li>
+        </ul>
+        
+        
+        <h2 id="introducao"> Introdução</h2>
+        
+        
+        
+        <p>
+            Se olharmos para a história, o ser humano assim como as coisas a sua volta, está em constante evolução. Mensagens que eram passadas por bilhetes com o passar do tempo caíram em desuso, sendo substituídos por cartas, fax, correio eletrônico, SMS e outros meios eletrônicos que existem hoje em dia. Assim também aconteceu com os dispositivos eletrônicos com acesso à internet. Tudo evoluiu, trazendo melhorias para esses dispositivos. Temos televisões com resolução 4k e aparelhos celulares muito desenvolvidos.A garantia que seu site atinja ao menos 90% dos dispositivos atuais é através do uso da Web Design Responsivo. Onde podemos ter diferentes usabilidade entre dispositivos móveis e Desktops. Dentre as várias maneiras citadas por Lopes (2013), uma que vem ganhando espaço na web são os sites responsivos, pois estes se adaptam a todos os tamanhos de tela independente do dispositivo que esteja sendo utilizado. Entre os extremos, desktop e dispositivo móvel (celular), temos uma vasta lista de dispositivos eletrônicos que tem características de ambos. 
+
+        </p>
+        
+       
+        
+       
+        
+        <h3 id="importancia"> Importancia do Design Responsivo</h3>
+        <p>
+            Com a evolução e com isso a decorrente utilização web, é preciso que o design responsivo, seja atraente. Se a interface de um site é construída pensando em seu design responsivo, o cliente não terá dificuldades para navegar e interagir em um celular, sem precisar, por exemplo, usar os seus dedos para ampliar ou encolher o site para enxergar um conteúdo. 
+            É preciso um site, onde posso acessa-lo, sem ter divergências ao acessar pelo celular ou pelo computador. Isso significa que, a fim de apoiar a experiência de utilização, os sites devem funcionar corretamente independentemente do tipo de dispositivo utilizado num determinado momento. O mesmo conteúdo ao qual têm acesso num dispositivo deve estar presente quando regressarem através de outro, garantindo assim a consistência da informação que procuram.
+
+        </p>
+        
+       
+            
+         <h3 id="triade"> Triade para Design Responsivo </h3>
+        <h4>Layout Fluido </h4>
+        <p>
+            Segundo Lopes (2013) a grande estrela de um web design responsivo é o layout fluído. Isso quer dizer não usar medidas fixas como pixels (ou pontos, centímetros, milímetros etc.) pra programar o design. Não dá mais pra copiar as medidas no Photoshop da imagem estática que o designer criou com o layout do site. Layout fluído é usar medidas flexíveis e é tão velho quanto o HTML em si.
+        </p>
+        <h4>Em e Rem </h4>
+        <p>
+            As medidas em e rem são geralmente utilizadas para definir os valores do font-size, margin e padding, A diferença entre as duas é que a medida em tem herança em cascata. Um elemento definido como em precisará verificar qual o font-size de seu elemento pai, para depois do cálculo, definir seu próprio valor.
+        </p>
+        <h4>Media Queries </h4>
+        <p>
+            As Media Queries que é possível ocultar, fazer aparecer e reposicionar elementos e interações conforme a resolução atual que esteja sendo usada no momento da visitação do site. Um exemplo clássico do uso de Media Queries é a utilização para o menu responsivo. Onde teremos o menu na versão mobile e outro na versão desktop, sendo definido por media queries em um breakpoint definido
+        </p>
+        <h4>ViewPort </h4>
+        <p>
+            As imagens compressivas é gerar uma imagem JPEG grande, retina, com o dobro da resolução, mas com qualidade bem baixa. Na hora de exportar a imagem no seu editor favorito, podemos escolher a qualidade – um número de um a cem. A ideia é gerar nossa imagem retina com qualidade 30. 
+        </p>
+        
+        
+           
+         <h3 id="diferenca"> Diferença entre Design Responsivo e Adaptativo</h3>
+        <h4>Fluxo </h4>
+        <p>
+            A partir do momento que a tela do dispositivo diminui de tamanho, o conteúdo também começa a preencher um espaço mais vertical, onde tudo que esta abaixo é “empurrado” também para baixo. Esse processo é chamado de fluxo.
+        </p>
+          <img src="img1.gif" title="Fluxo" alt="Mostrar fluxo" width="300" height="300">
+        
+        <h4>Unidade Relativa </h4>
+        <p>
+            Imagine que a tela possa ser um desktop, a tela de smartphone ou qualquer coisa que atinja o meio termo entra as duas. A densidade do pixels também pode variar e é por isso que também precisamos de unidades flexíveis e que funcionem em qualquer lugar.
+        </p>
+        <h4>Pontos de Interrupção </h4>
+        <p>
+            Os pontos de interrupção permitem que o layout mude em pontos predefinidos. Normalmente, onde se coloca um desses pontos dependera se quebrar, talvez seja necessário adicionar um ponto de interrupção. 
+        </p>
+         <img src="img2.gif" title="Pontos" alt="Mostrar Pontos de interrupçao" width="300" height="300">
+        
+        <h4>Valores Maximos e Mínimos </h4>
+        <p>
+            Os valores mínimos e máximos ajudam bastante. Por exemplo, uma largura de 100% com máxima largura de 1000 pixels significa que o conteúdo ira preencher toda a tela, mas nunca ultrapassando a marca de 1000 pixels.
+        </p>
+        <img src="img3.gif" title="valores" alt="Mostrar valores " width="300" height="300">
+        <h4>Objetos Alinhados </h4>
+        <p>
+            Manter os elementos bem envolvidos e únicos os deixara mais compreensíveis, limpos e muito mais bem-arrumados e  as unidades estáticas como os pixels podem ajudar. Eles são bastante úteis para aquele tipo de conteúdo que você não quer manter em escala, como logos e botões, por exemplo.
+        </p>
+        <img src="img4.gif" title="Objetos" alt="Mostrar Objetos" width="300" height="300">
+        <h4>Desktop ou Mobile </h4>
+        <p>
+           Tecnicamente não existe uma real diferença se o projeto é iniciado a partir de uma tela menor para uma tela maior ou vice-versa. No entanto, existem algumas limitações caso você decida começar pelo Mobile, mas que poderão ser bastante úteis na hora de algumas tomadas de decisão.Muitas vezes as pessoas até mesmo começam de ambas as extremidades (mobile e desktop simultaneamente). É ai que você precisa decidir o que melhor funcionará para você a fim de obter a máxima dos dois.
+
+        </p>
+        <img src="img5.gif" title="Desktop" alt="Desktop" width="300" height="300">
+        <h4>Fontes Web e Fonte de Sistema </h4>
+        <p>
+           use fontes da web! No entanto, embora elas sejam realmente deslumbrantes, lembre-se de que cada uma delas deverão ser carregadas, e quanto maior for a quantidade delas, mais tempo demorará para a página ser carregada.Já as fontes do sistema, por outro lado, são muito mais rápidas, exceto quando os usuários não as possui, o que faz com que toda a página fique apenas na fonte padrão.
+
+        </p>
+        <h4>Bitmap ou Vetores </h4>
+        <p>
+            Para bitmap, utilize imagens jpg, png ou gif; já para vetores a melhor opção será SVG ou uma fonte ícone. Cada uma delas possui suas vantagens e também algumas desvantagens.No entanto, tenha sempre em mente o tamanho – nenhuma imagem deve ser postada em qualquer lugar da internet sem que antes tenha sido otimizada. Já os vetores, por outro lado, muitas vezes são imagens pequenas e podem não ser suportadas em navegadores mais antigos.Além disso, se o vetor possuir muitas curvas, certamente ele pode ser mais pesado que o bitmap, então é melhor que você escolha sabiamente.
+
+        </p>
+        <img src="img6.gif" title="Vetores" alt="Mostrar vetores" width="300" height="300">
+        
+        <h3 id="conclusao"> Conclusao</h3>
+        <p>
+            O design responsivo é uma técnica que permite que a interface de um site ou aplicativo seja adaptada em qualquer tipo e tamanho de tela, tornando-a responsiva, ou seja, sem distorções ou inacessibilidade no conteúdo em todos os dispositivosHá muitos elementos diferentes que entram em um projeto web responsivo. Ao se familiarizar com os diferentes blocos de construção, analisar os exemplos com ferramentas de desenvolvimento web e testar à medida que você vai usando o código de amostra, você deve ser capaz de fazer com que seu website responda sem nenhum problema de maior.Notamos que não é simples desenvolver ou adaptar um site para ser responsivo, pois requer mais linhas de código e alguns cálculos e análises para trabalhar com layouts fluidos. Mas de fato é recompensador preparar o site para a atual/futura arquitetura da web responsiva.
+
+        </p>
+       
+       
+        
+        
+    </body>
+</html>
+<!--
+
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[     CODE THE WEB     ]:::::]
+    [:::::[  http://brackets.io  ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->
